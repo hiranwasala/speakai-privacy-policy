@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App" style={{ maxWidth: '800px', margin: '0 auto', padding: '20px', textAlign: 'left' }}>
-       <h1>Privacy Policy for SpeakAI</h1>
+      <h1>Privacy Policy for SpeakAI</h1>
       <p><strong>Last updated:</strong> August 09, 2025</p>
 
       <p>
@@ -19,7 +19,7 @@ function App() {
         <li><strong>Name</strong> (if provided)</li>
         <li><strong>Email address</strong></li>
         <li>
-          <strong>Authentication credentials</strong> 
+          <strong>Authentication credentials</strong>
           <ul>
             <li>Firebase Authentication (email/password)</li>
             <li>Google Sign-In (when you choose this option)</li>
@@ -29,6 +29,13 @@ function App() {
       <p>
         We do <strong>not</strong> collect any voice recordings on our servers.
         Audio recorded in the app stays <strong>locally on your device</strong>.
+      </p>
+
+      <h3>Microphone Access</h3>
+      <p>
+        Our app requests microphone permission (<code>RECORD_AUDIO</code>) so you can speak
+        and interact with AI features. We do <strong>not</strong> store or upload any
+        voice recordings to our servers — all audio is processed locally on your device.
       </p>
 
       <h2>2. How We Use Your Information</h2>
