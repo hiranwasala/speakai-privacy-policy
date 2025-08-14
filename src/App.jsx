@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App" style={{ maxWidth: '800px', margin: '0 auto', padding: '20px', textAlign: 'left' }}>
       <h1>Privacy Policy for SpeakAI</h1>
-      <p><strong>Last updated:</strong> August 09, 2025</p>
+      <p><strong>Last updated:</strong> August 14, 2025</p>
 
       <p>
         SpeakAI (“we,” “our,” or “us”) values your privacy and is committed to
@@ -98,6 +98,16 @@ function App() {
         <li>Access, update, or delete your account information</li>
         <li>Request clarification about our data usage</li>
       </ul>
+
+      <h3>6.1 Account Deletion</h3>
+      <p>
+        If you wish to delete your SpeakAI account and associated data, please email{" "}
+        <strong>speakai86.app@gmail.com</strong> with the subject line{" "}
+        <em>“Account Deletion Request”</em>. We will process your request within{" "}
+        <strong>7 business days</strong>. Once completed, all account data, including
+        recent practice history, and settings, will be permanently deleted
+        from our systems. 
+      </p>
 
       <h2>7. Changes to This Policy</h2>
       <p>
